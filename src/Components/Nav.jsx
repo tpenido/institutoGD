@@ -66,7 +66,7 @@ export default class Navmenu extends Component {
             <Container fluid>
               <Row>
                 <Col className="text-left">{languageSelector}</Col>
-                <Col className="text-right socialmedia">
+              {/**  <Col className="text-right socialmedia">
                   <a
                     href=""
                     target="_blank"
@@ -85,7 +85,7 @@ export default class Navmenu extends Component {
                   >
                     <i className="fa fa-youtube-square"></i>
                   </a>
-                </Col>
+                </Col>*/}
               </Row>
             </Container>
           </div>

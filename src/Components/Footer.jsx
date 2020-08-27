@@ -65,25 +65,25 @@ class Footer extends Component {
               </Col>
             </Row>
             <hr />
-            <Row className="justify-content-between">
-              <Col className="socialmedia" xs="auto">
+         <Row className="justify-content-between">
+           <Col className="socialmedia" xs="auto">
                 <a
                   href=""
                   target="_blank"
                 >
-                  <i className="fa fa-facebook-f"></i>
+                  <i className=""></i>
                 </a>
                 <a
                   href=""
                   target="_blank"
                 >
-                  <i className="fa fa-instagram"></i>
+                  <i className=""></i>
                 </a>
                 <a
                   href=""
                   target="_blank"
                 >
-                  <i className="fa fa-youtube-square"></i>
+                  <i className=""></i>
                 </a>
               </Col>
               <Col xs="auto">
@@ -92,7 +92,7 @@ class Footer extends Component {
               </Col>
               <Col xs="auto">
                 2020 <i className="fa fa-creative-commons"></i>
-              </Col>
+    </Col>
             </Row>
           </Container>
         </div>
