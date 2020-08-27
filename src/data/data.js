@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const data = {
   categories: {
-    antidotos: {
-      slug: 'antidotos',
+    inspiracional: {
+      slug: 'inspiracional',
       pt: {
         titulo: 'Antídotos',
         subtitulo:
@@ -24,75 +24,6 @@ const data = {
           'Imagínate cómo quieres vivir (¡atrévete! sueña, crea, ve más allá de la razón)',
         descricao:
           'Imagínate cómo quieres vivir (¡atrévete!, sueña, crea, ve más allá de la razón).',
-      },
-    },
-    clima: {
-      slug: 'clima',
-      pt: {
-        titulo: 'Emergência Climática',
-        subtitulo:
-          'Sugira ações para impedir a destruição da natureza, garantindo a continuidade de todas as formas de vida no planeta. (ouse! e seja combatente.)',
-        descricao:
-          'Sugira ações para impedir a destruição da natureza, garantindo a continuidade de todas as formas de vida no planeta. (ouse! e seja combatente.)',
-      },
-      en: {
-        titulo: 'Climate',
-        subtitulo: 'To ensure continuity of life',
-        descricao:
-          'Suggest actions to stop the destruction of nature and guarantee the continuity of all forms of life on the planet. (dare! and be a fighter.)',
-      },
-      es: {
-        titulo: 'Emergencia Climática',
-        subtitulo:
-          'Sugiere acciones para impedir la destrucción de la naturaleza, asegurándote de la protección de todas las formas de vida en el planeta (¡atrévete! y sé combatiente).',
-        descricao:
-          'Sugiere acciones para impedir la destrucción de la naturaleza, asegurándote de la protección de todas las formas de vida en el planeta (¡atrévete! y sé combatiente).',
-      },
-    },
-    consumo: {
-      slug: 'consumo',
-      pt: {
-        titulo: 'Consumo',
-        subtitulo:
-          'Indique alternativas para eliminar as práticas de consumo que escravizam a nossa e as outras espécies. (ouse! e seja específico.)',
-        descricao:
-          'Indique alternativas para eliminar as práticas de consumo que escravizam a nossa e as outras espécies. (ouse! e seja específico.)',
-      },
-      en: {
-        titulo: 'Consumption',
-        subtitulo: 'To eliminate consumer practices',
-        descricao:
-          'Suggest ways of eliminating the consumption habits that enslave our species and others as well. (dare! and be specific.)',
-      },
-      es: {
-        titulo: 'Consumo',
-        subtitulo:
-          'Señala alternativas para eliminar las prácticas de consumo que esclavizan a nuestra sociedad (¡atrévete! y sé específico).',
-        descricao:
-          'Señala alternativas para eliminar las prácticas de consumo que esclavizan a nuestra sociedad (¡atrévete! y sé específico).',
-      },
-    },
-    democracia: {
-      slug: 'democracia',
-      pt: {
-        titulo: 'Democracia',
-        subtitulo:
-          'Proponha políticas públicas, assim como mudanças nas leis e nas normas, para reduzir as desigualdades de raça, gênero e classe e para que a democracia seja mais do que votar a cada eleição. (Ouse! e seja objetivo.)',
-        descricao:
-          'Proponha políticas públicas, assim como mudanças nas leis e nas normas, para reduzir as desigualdades de raça, gênero e classe e para que a democracia seja mais do que votar a cada eleição. (Ouse! e seja objetivo.)',
-      },
-      en: {
-        titulo: 'Democracy',
-        subtitulo: 'So that it is more than voting for each election',
-        descricao:
-          'Propose public policies and legislative and normative changes that will reduce racial, gender, and class inequalities and take democracy beyond the mere act of voting every election. (dare! and be objective.)',
-      },
-      es: {
-        titulo: 'Democracia',
-        subtitulo:
-          'Propón políticas públicas, así como el cambio de leyes y regulaciones, para reducir las desigualdades de raza, género y clase, y para que la democracia sea más que sólo votar (¡atrévete! y ve por tu objetivo).',
-        descricao:
-          'Propón políticas públicas, así como el cambio de leyes y regulaciones, para reducir las desigualdades de raza, género y clase, y para que la democracia sea más que sólo votar (¡atrévete! y ve por tu objetivo).',
       },
     },
   },

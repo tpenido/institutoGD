@@ -16,10 +16,7 @@ import Laboratorio from './Pages/Laboratorio';
 import Participe from './Pages/Participe';
 import Footer from './Components/Footer';
 
-data.categories.antidotos.videos = [];
-data.categories.clima.videos = [];
-data.categories.consumo.videos = [];
-data.categories.democracia.videos = [];
+data.categories.inspiracional.videos = [];
 
 class App extends Component {
   state = {
@@ -27,24 +24,9 @@ class App extends Component {
     lang: 'pt',
     videosToFetch: [
       {
-        category: 'antidotos',
+        category: 'inspiracional',
         url:
           'https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vRs1WKi9EBE0T_Wlhh9QETMz-6lxqf27-ysUTZNmQOR_pVF3Wa27rPAPxUnTjz2Pn3Ds1BJokbjDqX9/pub?gid=0&single=true&output=csv',
-      },
-      {
-        category: 'clima',
-        url:
-          'https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vRs1WKi9EBE0T_Wlhh9QETMz-6lxqf27-ysUTZNmQOR_pVF3Wa27rPAPxUnTjz2Pn3Ds1BJokbjDqX9/pub?gid=2026617917&single=true&output=csv',
-      },
-      {
-        category: 'consumo',
-        url:
-          'https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vRs1WKi9EBE0T_Wlhh9QETMz-6lxqf27-ysUTZNmQOR_pVF3Wa27rPAPxUnTjz2Pn3Ds1BJokbjDqX9/pub?gid=1098268932&single=true&output=csv',
-      },
-      {
-        category: 'democracia',
-        url:
-          'https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vRs1WKi9EBE0T_Wlhh9QETMz-6lxqf27-ysUTZNmQOR_pVF3Wa27rPAPxUnTjz2Pn3Ds1BJokbjDqX9/pub?gid=666431457&single=true&output=csv',
       },
     ],
   };

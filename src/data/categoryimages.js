@@ -1,14 +1,5 @@
 const catImages = {
-  antidotos: {
-    url: require(`../assets/logos/simbologd.svg`),
-  },
-  democracia: {
-    url: require(`../assets/logos/simbologd.svg`),
-  },
-  clima: {
-    url: require(`../assets/logos/simbologd.svg`),
-  },
-  consumo: {
+  inspiracional: {
     url: require(`../assets/logos/simbologd.svg`),
   },
 };
