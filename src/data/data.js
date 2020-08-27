@@ -6,24 +6,17 @@ const data = {
     inspiracional: {
       slug: 'inspiracional',
       pt: {
-        titulo: 'Antídotos',
+        titulo: 'Vídeos Inspiracionais',
         subtitulo:
-          'Contra o fim do mundo: imagine como quer viver. (Ouse! Sonhe, crie, extrapole a razão.)',
+          '',
         descricao:
-          'Contra o fim do mundo: imagine como quer viver. (Ouse! Sonhe, crie, extrapole a razão.)',
+          '',
       },
       en: {
-        titulo: 'Antidotes against the end of the world',
-        subtitulo: 'Imagine how you want to live',
+        titulo: 'Inspirational Videos',
+        subtitulo: '',
         descricao:
-          'Against the end of the world. Imagine how you want to live. (Dare! Dream, create, defy your own imagination.)',
-      },
-      es: {
-        titulo: 'Antídotos contra el fin del mundo',
-        subtitulo:
-          'Imagínate cómo quieres vivir (¡atrévete! sueña, crea, ve más allá de la razón)',
-        descricao:
-          'Imagínate cómo quieres vivir (¡atrévete!, sueña, crea, ve más allá de la razón).',
+          '',
       },
     },
   },
