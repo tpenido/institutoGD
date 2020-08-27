@@ -1,18 +1,18 @@
 const catImages = {
   antidotos: {
-    url: require(`../assets/logos/antidotos.svg`),
+    url: require(`../assets/logos/simbologd.svg`),
   },
   democracia: {
-    url: require(`../assets/logos/democracia.svg`),
+    url: require(`../assets/logos/simbologd.svg`),
   },
   clima: {
-    url: require(`../assets/logos/clima.svg`),
+    url: require(`../assets/logos/simbologd.svg`),
   },
   insurreicao: {
-    url: require(`../assets/logos/insurreicao.svg`),
+    url: require(`../assets/logos/simbologd.svg`),
   },
   consumo: {
-    url: require(`../assets/logos/consumo.svg`),
+    url: require(`../assets/logos/simbologd.svg`),
   },
 };
 

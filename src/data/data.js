@@ -6,116 +6,52 @@ const data = {
     antidotos: {
       slug: 'antidotos',
       pt: {
-        titulo: 'Antídotos',
+        titulo: 'Titulo',
         subtitulo:
-          'Contra o fim do mundo: imagine como quer viver. (Ouse! Sonhe, crie, extrapole a razão.)',
+          'Subtitulo',
         descricao:
-          'Contra o fim do mundo: imagine como quer viver. (Ouse! Sonhe, crie, extrapole a razão.)',
+          'Descrição',
       },
-      en: {
-        titulo: 'Antidotes against the end of the world',
-        subtitulo: 'Imagine how you want to live',
-        descricao:
-          'Against the end of the world. Imagine how you want to live. (Dare! Dream, create, defy your own imagination.)',
-      },
-      es: {
-        titulo: 'Antídotos contra el fin del mundo',
-        subtitulo:
-          'Imagínate cómo quieres vivir (¡atrévete! sueña, crea, ve más allá de la razón)',
-        descricao:
-          'Imagínate cómo quieres vivir (¡atrévete!, sueña, crea, ve más allá de la razón).',
-      },
+      
     },
     clima: {
       slug: 'clima',
       pt: {
-        titulo: 'Emergência Climática',
+        titulo: 'Titulo',
         subtitulo:
-          'Sugira ações para impedir a destruição da natureza, garantindo a continuidade de todas as formas de vida no planeta. (ouse! e seja combatente.)',
+          'subtitulo',
         descricao:
-          'Sugira ações para impedir a destruição da natureza, garantindo a continuidade de todas as formas de vida no planeta. (ouse! e seja combatente.)',
-      },
-      en: {
-        titulo: 'Climate',
-        subtitulo: 'To ensure continuity of life',
-        descricao:
-          'Suggest actions to stop the destruction of nature and guarantee the continuity of all forms of life on the planet. (dare! and be a fighter.)',
-      },
-      es: {
-        titulo: 'Emergencia Climática',
-        subtitulo:
-          'Sugiere acciones para impedir la destrucción de la naturaleza, asegurándote de la protección de todas las formas de vida en el planeta (¡atrévete! y sé combatiente).',
-        descricao:
-          'Sugiere acciones para impedir la destrucción de la naturaleza, asegurándote de la protección de todas las formas de vida en el planeta (¡atrévete! y sé combatiente).',
+          'Descrição',
       },
     },
     consumo: {
       slug: 'consumo',
       pt: {
-        titulo: 'Consumo',
+        titulo: 'Titulo',
         subtitulo:
-          'Indique alternativas para eliminar as práticas de consumo que escravizam a nossa e as outras espécies. (ouse! e seja específico.)',
+          '',
         descricao:
-          'Indique alternativas para eliminar as práticas de consumo que escravizam a nossa e as outras espécies. (ouse! e seja específico.)',
-      },
-      en: {
-        titulo: 'Consumption',
-        subtitulo: 'To eliminate consumer practices',
-        descricao:
-          'Suggest ways of eliminating the consumption habits that enslave our species and others as well. (dare! and be specific.)',
-      },
-      es: {
-        titulo: 'Consumo',
-        subtitulo:
-          'Señala alternativas para eliminar las prácticas de consumo que esclavizan a nuestra sociedad (¡atrévete! y sé específico).',
-        descricao:
-          'Señala alternativas para eliminar las prácticas de consumo que esclavizan a nuestra sociedad (¡atrévete! y sé específico).',
+          '',
       },
     },
     democracia: {
       slug: 'democracia',
       pt: {
-        titulo: 'Democracia',
+        titulo: 'Titulo',
         subtitulo:
-          'Proponha políticas públicas, assim como mudanças nas leis e nas normas, para reduzir as desigualdades de raça, gênero e classe e para que a democracia seja mais do que votar a cada eleição. (Ouse! e seja objetivo.)',
+          '',
         descricao:
-          'Proponha políticas públicas, assim como mudanças nas leis e nas normas, para reduzir as desigualdades de raça, gênero e classe e para que a democracia seja mais do que votar a cada eleição. (Ouse! e seja objetivo.)',
-      },
-      en: {
-        titulo: 'Democracy',
-        subtitulo: 'So that it is more than voting for each election',
-        descricao:
-          'Propose public policies and legislative and normative changes that will reduce racial, gender, and class inequalities and take democracy beyond the mere act of voting every election. (dare! and be objective.)',
-      },
-      es: {
-        titulo: 'Democracia',
-        subtitulo:
-          'Propón políticas públicas, así como el cambio de leyes y regulaciones, para reducir las desigualdades de raza, género y clase, y para que la democracia sea más que sólo votar (¡atrévete! y ve por tu objetivo).',
-        descricao:
-          'Propón políticas públicas, así como el cambio de leyes y regulaciones, para reducir las desigualdades de raza, género y clase, y para que la democracia sea más que sólo votar (¡atrévete! y ve por tu objetivo).',
+          'descrição',
       },
     },
     insurreicao: {
       slug: 'insurreicao',
       pt: {
-        titulo: 'Insurreição',
+        titulo: 'Titulo',
         subtitulo:
-          'Defina a melhor ação de desobediência civil para criar o futuro onde você quer viver. (ouse!)',
+          'descricao',
         descricao:
-          'Defina a melhor ação de desobediência civil para criar o futuro onde você quer viver. (ouse!)',
-      },
-      en: {
-        titulo: 'Insurrection',
-        subtitulo: 'Define the best civil disobedience action',
-        descricao:
-          'Define the best form of civil disobedience for creating the future in which you want to live! (dare!)',
-      },
-      es: {
-        titulo: 'Insurrección',
-        subtitulo:
-          '¡Define la mejor acción de desobediencia civil para crear el futuro donde quieres vivir. (¡atrévete!)',
-        descricao:
-          '¡Define la mejor acción de desobediencia civil para crear el futuro donde quieres vivir. (¡atrévete!)',
+          'descricao',
       },
     },
   },
