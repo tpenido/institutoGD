@@ -151,7 +151,7 @@ const data = {
     },
     categories: {
       pt: {
-        menuTitle: 'Cinco propostas para adiar o fim do mundo',
+        menuTitle: 'Texto Opcional',
       },
       en: {
         menuTitle: 'Five proposals for postponing the end of the world',
@@ -162,7 +162,7 @@ const data = {
     },
     laboratorio: {
       pt: {
-        menuTitle: 'Laboratório',
+        menuTitle: '',
         titulo: 'Laboratórios Sociais',
         subtitulo: 'Cinco propostas para adiar o fim do mundo',
         content: (
@@ -272,7 +272,7 @@ const data = {
         ),
       },
       es: {
-        menuTitle: 'Laboratorio',
+        menuTitle: '',
         titulo: 'Laboratorios Sociales',
         subtitulo: 'Cinco propuestas para posponer el fin de mundo',
         content: (
@@ -330,14 +330,14 @@ const data = {
     },
     movimento: {
       pt: {
-        menuTitle: 'O movimento',
+        menuTitle: '',
         titulo: 'Nosso movimento',
         subtitulo: 'Liberte o futuro',
         content: (
           <div>
             <p>
               Muitos têm repetido que o mundo não será o mesmo após a pandemia
-              provocada pelo novo coronavírus. Não será. Mas poderá ser ainda
+               provocada pelo novo coronavírus. Não será. Mas poderá ser ainda
               pior.
             </p>
             <p>

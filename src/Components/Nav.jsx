@@ -50,9 +50,8 @@ export default class Navmenu extends Component {
     const categories = _.values(data.categories);
     const languageSelector = (
       <div className="languageselector">
-        <a onClick={() => this.props.onChangeLang('en')}>EN</a> |{' '}
-        <a onClick={() => this.props.onChangeLang('pt')}>PT</a> |{' '}
-        <a onClick={() => this.props.onChangeLang('es')}>ES</a>
+        <a onClick={() => this.props.onChangeLang('pt')}>PT</a> {' '}
+        
       </div>
     );
     return (
@@ -70,19 +69,19 @@ export default class Navmenu extends Component {
                 <Col className="text-left">{languageSelector}</Col>
                 <Col className="text-right socialmedia">
                   <a
-                    href="https://www.facebook.com/liberteofuturo/"
+                    href=""
                     target="_blank"
                   >
                     <i className="fa fa-facebook-f"></i>
                   </a>
                   <a
-                    href="https://www.instagram.com/liberteofuturo/"
+                    href=""
                     target="_blank"
                   >
                     <i className="fa fa-instagram"></i>
                   </a>
                   <a
-                    href="https://www.youtube.com/channel/UCHDA4Nfvu9emyq1juLiUoEw"
+                    href=""
                     target="_blank"
                   >
                     <i className="fa fa-youtube-square"></i>

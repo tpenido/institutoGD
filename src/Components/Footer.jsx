@@ -20,9 +20,7 @@ class Footer extends Component {
     const categories = _.values(data.categories);
     const languageSelector = (
       <div className="languageselector">
-        <a onClick={() => this.props.onChangeLang('en')}>EN</a> |{' '}
         <a onClick={() => this.props.onChangeLang('pt')}>PT</a> |{' '}
-        <a onClick={() => this.props.onChangeLang('es')}>ES</a>
       </div>
     );
     return (
@@ -68,19 +66,19 @@ class Footer extends Component {
             <Row className="justify-content-between">
               <Col className="socialmedia" xs="auto">
                 <a
-                  href="https://www.facebook.com/liberteofuturo/"
+                  href=""
                   target="_blank"
                 >
                   <i className="fa fa-facebook-f"></i>
                 </a>
                 <a
-                  href="https://www.instagram.com/liberteofuturo/"
+                  href=""
                   target="_blank"
                 >
                   <i className="fa fa-instagram"></i>
                 </a>
                 <a
-                  href="https://www.youtube.com/channel/UCHDA4Nfvu9emyq1juLiUoEw"
+                  href=""
                   target="_blank"
                 >
                   <i className="fa fa-youtube-square"></i>
@@ -88,7 +86,7 @@ class Footer extends Component {
               </Col>
               <Col xs="auto">
                 Fale com a gente pelo email{' '}
-                <strong>contato@liberteofuturo.net</strong>
+                <strong>Adicionar Endereço</strong>
               </Col>
               <Col xs="auto">
                 2020 <i className="fa fa-creative-commons"></i>
