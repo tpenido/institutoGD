@@ -26,7 +26,7 @@ class App extends Component {
       {
         category: 'inspiracional',
         url:
-          'https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vRs1WKi9EBE0T_Wlhh9QETMz-6lxqf27-ysUTZNmQOR_pVF3Wa27rPAPxUnTjz2Pn3Ds1BJokbjDqX9/pub?gid=0&single=true&output=csv',
+          'https://docs.google.com/spreadsheets/d/1YHPPm57RCGaZk8sgzbkWHjWlBgplILzXka6W6REtRLk/gviz/tq?tqx=out:csv',
       },
     ],
   };
