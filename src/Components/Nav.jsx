@@ -50,8 +50,7 @@ export default class Navmenu extends Component {
     const categories = _.values(data.categories);
     const languageSelector = (
       <div className="languageselector">
-        <a onClick={() => this.props.onChangeLang('pt')}>PT</a> {' '}
-        
+                <a onClick={() => this.props.onChangeLang('pt')}>PT</a> 
       </div>
     );
     return (
@@ -81,7 +80,7 @@ export default class Navmenu extends Component {
                     <i className="fa fa-instagram"></i>
                   </a>
                   <a
-                    href=""
+                    href=" "
                     target="_blank"
                   >
                     <i className="fa fa-youtube-square"></i>

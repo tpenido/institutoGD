@@ -20,7 +20,9 @@ class Footer extends Component {
     const categories = _.values(data.categories);
     const languageSelector = (
       <div className="languageselector">
+        <a onClick={() => this.props.onChangeLang('en')}>EN</a> |{' '}
         <a onClick={() => this.props.onChangeLang('pt')}>PT</a> |{' '}
+        <a onClick={() => this.props.onChangeLang('es')}>ES</a>
       </div>
     );
     return (
@@ -86,7 +88,7 @@ class Footer extends Component {
               </Col>
               <Col xs="auto">
                 Fale com a gente pelo email{' '}
-                <strong>Adicionar Endereço</strong>
+                <strong> Endereço</strong>
               </Col>
               <Col xs="auto">
                 2020 <i className="fa fa-creative-commons"></i>

@@ -6,59 +6,100 @@ const data = {
     antidotos: {
       slug: 'antidotos',
       pt: {
-        titulo: 'Titulo',
+        titulo: 'Antídotos',
         subtitulo:
-          'Subtitulo',
+          'Contra o fim do mundo: imagine como quer viver. (Ouse! Sonhe, crie, extrapole a razão.)',
         descricao:
-          'Descrição',
+          'Contra o fim do mundo: imagine como quer viver. (Ouse! Sonhe, crie, extrapole a razão.)',
       },
-      
+      en: {
+        titulo: 'Antidotes against the end of the world',
+        subtitulo: 'Imagine how you want to live',
+        descricao:
+          'Against the end of the world. Imagine how you want to live. (Dare! Dream, create, defy your own imagination.)',
+      },
+      es: {
+        titulo: 'Antídotos contra el fin del mundo',
+        subtitulo:
+          'Imagínate cómo quieres vivir (¡atrévete! sueña, crea, ve más allá de la razón)',
+        descricao:
+          'Imagínate cómo quieres vivir (¡atrévete!, sueña, crea, ve más allá de la razón).',
+      },
     },
     clima: {
       slug: 'clima',
       pt: {
-        titulo: 'Titulo',
+        titulo: 'Emergência Climática',
         subtitulo:
-          'subtitulo',
+          'Sugira ações para impedir a destruição da natureza, garantindo a continuidade de todas as formas de vida no planeta. (ouse! e seja combatente.)',
         descricao:
-          'Descrição',
+          'Sugira ações para impedir a destruição da natureza, garantindo a continuidade de todas as formas de vida no planeta. (ouse! e seja combatente.)',
+      },
+      en: {
+        titulo: 'Climate',
+        subtitulo: 'To ensure continuity of life',
+        descricao:
+          'Suggest actions to stop the destruction of nature and guarantee the continuity of all forms of life on the planet. (dare! and be a fighter.)',
+      },
+      es: {
+        titulo: 'Emergencia Climática',
+        subtitulo:
+          'Sugiere acciones para impedir la destrucción de la naturaleza, asegurándote de la protección de todas las formas de vida en el planeta (¡atrévete! y sé combatiente).',
+        descricao:
+          'Sugiere acciones para impedir la destrucción de la naturaleza, asegurándote de la protección de todas las formas de vida en el planeta (¡atrévete! y sé combatiente).',
       },
     },
     consumo: {
       slug: 'consumo',
       pt: {
-        titulo: 'Titulo',
+        titulo: 'Consumo',
         subtitulo:
-          '',
+          'Indique alternativas para eliminar as práticas de consumo que escravizam a nossa e as outras espécies. (ouse! e seja específico.)',
         descricao:
-          '',
+          'Indique alternativas para eliminar as práticas de consumo que escravizam a nossa e as outras espécies. (ouse! e seja específico.)',
+      },
+      en: {
+        titulo: 'Consumption',
+        subtitulo: 'To eliminate consumer practices',
+        descricao:
+          'Suggest ways of eliminating the consumption habits that enslave our species and others as well. (dare! and be specific.)',
+      },
+      es: {
+        titulo: 'Consumo',
+        subtitulo:
+          'Señala alternativas para eliminar las prácticas de consumo que esclavizan a nuestra sociedad (¡atrévete! y sé específico).',
+        descricao:
+          'Señala alternativas para eliminar las prácticas de consumo que esclavizan a nuestra sociedad (¡atrévete! y sé específico).',
       },
     },
     democracia: {
       slug: 'democracia',
       pt: {
-        titulo: 'Titulo',
+        titulo: 'Democracia',
         subtitulo:
-          '',
+          'Proponha políticas públicas, assim como mudanças nas leis e nas normas, para reduzir as desigualdades de raça, gênero e classe e para que a democracia seja mais do que votar a cada eleição. (Ouse! e seja objetivo.)',
         descricao:
-          'descrição',
+          'Proponha políticas públicas, assim como mudanças nas leis e nas normas, para reduzir as desigualdades de raça, gênero e classe e para que a democracia seja mais do que votar a cada eleição. (Ouse! e seja objetivo.)',
       },
-    },
-    insurreicao: {
-      slug: 'insurreicao',
-      pt: {
-        titulo: 'Titulo',
-        subtitulo:
-          'descricao',
+      en: {
+        titulo: 'Democracy',
+        subtitulo: 'So that it is more than voting for each election',
         descricao:
-          'descricao',
+          'Propose public policies and legislative and normative changes that will reduce racial, gender, and class inequalities and take democracy beyond the mere act of voting every election. (dare! and be objective.)',
+      },
+      es: {
+        titulo: 'Democracia',
+        subtitulo:
+          'Propón políticas públicas, así como el cambio de leyes y regulaciones, para reducir las desigualdades de raza, género y clase, y para que la democracia sea más que sólo votar (¡atrévete! y ve por tu objetivo).',
+        descricao:
+          'Propón políticas públicas, así como el cambio de leyes y regulaciones, para reducir las desigualdades de raza, género y clase, y para que la democracia sea más que sólo votar (¡atrévete! y ve por tu objetivo).',
       },
     },
   },
   pages: {
     home: {
       pt: {
-        titulo: 'Este é o movimento para libertar o futuro',
+        titulo: 'Texto Inicial',
         subtitulo:
           'Traga suas cinco propostas, dispare perguntas, imagine respostas para o futuro pós-pandemia',
         video: 'Veja o vídeo',
@@ -87,14 +128,9 @@ const data = {
     },
     categories: {
       pt: {
-        menuTitle: 'Texto Opcional',
+        menuTitle: '',
       },
-      en: {
-        menuTitle: 'Five proposals for postponing the end of the world',
-      },
-      es: {
-        menuTitle: 'Cinco propuestas para posponer el fin de mundo',
-      },
+      
     },
     laboratorio: {
       pt: {
@@ -208,7 +244,7 @@ const data = {
         ),
       },
       es: {
-        menuTitle: '',
+        menuTitle: 'Laboratorio',
         titulo: 'Laboratorios Sociales',
         subtitulo: 'Cinco propuestas para posponer el fin de mundo',
         content: (
@@ -267,288 +303,17 @@ const data = {
     movimento: {
       pt: {
         menuTitle: '',
-        titulo: 'Nosso movimento',
-        subtitulo: 'Liberte o futuro',
+        titulo: '',
+        subtitulo: '',
         content: (
           <div>
             <p>
-              Muitos têm repetido que o mundo não será o mesmo após a pandemia
-               provocada pelo novo coronavírus. Não será. Mas poderá ser ainda
-              pior.
+            <h1><strong>“Preocupado em disseminar a força da palavra, do conhecimento e da rebeldia, virei jornalista e comunicador.” (Gilberto Dimenstein)</strong></h1>
             </p>
             <p>
-              Hoje, apenas 2.153 pessoas concentram mais riqueza material do que
-              60% dos outros 7.790.000.000 de seres humanos que habitam o
-              planeta. Esses bilionários representam uma fração tão
-              insignificante no conjunto da população global que os números
-              falham em torná-los visíveis como porcentagem. A desigualdade
-              racial, social, de gênero e de espécie que provocam, porém, é
-              brutalmente visível.
-            </p>
-            <p>Queremos um mundo para 99,99%.</p>
-            <p>
-              Não podemos nos render à volta da normalidade que corrompe a
-              natureza e condena bilhões à pobreza e à exaustão de seus corpos.
-              Não devemos permitir que a Amazônia, cada vez mais perto do ponto
-              de não retorno, siga sendo destruída. Precisamos usar a suspensão
-              das atividades econômicas imposta pelo vírus para voltar a
-              imaginar um futuro onde possamos e queiramos viver. Estamos em
-              isolamento físico, mas não em isolamento social. As ideias
-              precisam circular. Imaginar o futuro já é começar a criá-lo.
-            </p>
-            <p>
-              Por que lançamos esse movimento? Porque queremos um mundo para os
-              humanos e suas futuras gerações – e também para todos os seres não
-              humanos que habitam a Terra. Temos que nos juntar em torno dessa
-              urgência. Se não nos movermos, teremos apenas um futuro hostil,
-              num planeta devorado pelo capitalismo e pela crise climática
-              causada por um modo de produção incompatível com a vida. A
-              destruição da natureza, da qual a maioria dos humanos tragicamente
-              se descolou, provocará cada vez mais pandemias e está levando a
-              única casa que temos ao superaquecimento. Lançamos esse movimento
-              porque não queremos ser abatidos como gado. Seja no campo ou na
-              cidade, queremos viver como floresta. Em pé – e lutar.
-            </p>
-            <h3>Como funciona</h3>
-            <p>
-              Convidamos você a elaborar cinco propostas para adiar o fim do
-              mundo, imaginando possibilidades de futuros pós-pandemia de
-              covid-19. Acreditamos que perguntas são tão importantes quanto
-              respostas. Para ajudar nesse exercício de imaginação, sugerimos os
-              cinco pontos abaixo. Os temas são disparadores para você criar
-              suas perguntas e, em seguida, respondê-las.
-            </p>
-            <ol>
-              <li>
-                Antídotos contra o fim do mundo: imagine como quer viver. (ouse!
-                sonhe, crie, extrapole a razão.);
-              </li>
-              <li>
-                Democracia: proponha políticas públicas, assim como mudanças nas
-                leis e nas normas, para reduzir as desigualdades de raça, gênero
-                e classe e para que a democracia seja mais do que votar a cada
-                eleição. (ouse! e seja objetivo.);
-              </li>
-              <li>
-                Consumo: indique alternativas para eliminar as práticas de
-                consumo que escravizam a nossa e as outras espécies. (ouse! e
-                seja específico.);
-              </li>
-              <li>
-                Emergência Climática: sugira ações para impedir a destruição da
-                natureza, garantindo a continuidade de todas as formas de vida
-                no planeta. (ouse! e seja combatente.);
-              </li>
-              <li>
-                Insurreição: defina a melhor ação de desobediência civil para
-                criar o futuro onde você quer viver. (ouse!).
-              </li>
-            </ol>
-            <p>
-              As propostas devem ser enviadas em vídeos de um minuto cada. No
-              início de cada um deles, diga seu nome e em que cidade e país você
-              vive. Os vídeos, gravados na posição horizontal, devem ser
-              postados nas redes sociais com a #LiberteoFuturo ou enviados por
-              Whatsapp +55 (11) 975579830. Estes vídeos serão reunidos nesta
-              plataforma digital aberta. O material produzido não pertence a
-              ninguém em particular, é de todos nós coletivamente. Você pode
-              pesquisar, divulgar e agir.
-            </p>
-            <p>
-              Sabemos que pensar sobre o que queremos e expor nossos pensamentos
-              pode ser difícil. É mesmo difícil tentar mudar o mundo. Quando
-              você começar, vai perceber que o gesto de imaginar - sozinho ou
-              com seu grupo de amigos, comunidade, coletivo, organização ou
-              empresa - já está mudando você. A imaginação é uma força poderosa.
-            </p>
-            <p>
-              Se não quiser partir dos temas propostos, apenas responda a uma
-              única pergunta:Que futuro você quer libertar? Não desista.
-              Desistir de lutar pelo futuro, neste momento histórico, pode
-              significar desistir do presente.
-            </p>
-            <p>
-              "O futuro é aqui e agora, pode não haver ano que vem" , alerta
-              Ailton Krenak.
-            </p>
-            <img
-              src={require('../assets/headers/HOME_DESTAQUE_13.jpg')}
-              alt=""
-            />
-            <h3>Quem somos</h3>
-            <p>
-              Somos eu+1+. Somos um movimento pela libertação do futuro. E em
-              movimento crescemos a cada dia. Não há autoria, não há captura.
-              Convidamos cada um a contribuir com uma reflexão crítica e
-              dinâmica sobre o momento pós-pandemia e sobre outros mundos
-              possíveis. Nessa rede nós somos rio e rua, imaginação e realidade,
-              somos humanos e mais que humanos. A maneira como o mundo girava
-              até a crise do novo coronavírus é uma catástrofe anunciada. Temos
-              uma das últimas oportunidades para desviar a rota que nos carrega
-              velozmente ao abismo e que já inaugurou o tempo das pandemias.
-            </p>
-            <p>
-              Achamos importante fazer um registro de nossa presença e de nossa
-              imaginação. Isso ajudará a compreender quem somos e o que
-              queremos. Permite também a criação de um documento vivo para as
-              gerações futuras e uma fonte de pesquisas para compreender esse
-              momento limite do planeta. Criamos abaixo um antiformulário, com
-              perguntas que ajudam a compreender você melhor e, compreendendo
-              você, podemos compreender melhor o mundo em que vivemos. Se você
-              quiser compor este movimento conosco, pedimos que complete o
-              antiformulário como desejar - todo ou apenas em parte.
-            </p>
-            <p>
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSc74-rSYZuEfts-7xkj_oh5AFmdY-WUJWkTIgQicyo5w7vhGA/viewform"
-                target="_blank"
-              >
-                [Antiformulário]
-              </a>
-            </p>
-          </div>
-        ),
-      },
-      en: {
-        menuTitle: 'Movement',
-        titulo: 'Our movement',
-        subtitulo: 'Free the future',
-        content: (
-          <div>
-            <p>
-              Many people say the world won’t be the same after the pandemic
-              caused by the new coronavirus. It won’t be. But it might be even
-              worse.
-            </p>
-            <p>
-              Today, more material wealth lies in the hands of only 2,153 people
-              than in the hands of 60% of the planet’s other 7,790,000,000 human
-              inhabitants. These billionaires represent such an insignificant
-              fraction of the global population that they become invisible when
-              their number is expressed in a percentage. Yet the inequality they
-              produce is brutally visible.
-            </p>
-            <p>We want a world for the 99.99%.</p>
-            <p>
-              We cannot accept the return of a normalcy that despoils nature and
-              condemns billions to poverty and bodily exhaustion. We cannot
-              permit the continued destruction of the Amazon, ever closer to the
-              tipping point. We must use the current suspension of economic
-              activities to go back to imagining a future where we can live and
-              where we want to. We are experiencing physical isolation, not
-              social isolation. Ideas need to circulate. When we imagine the
-              future, we begin to create it.
-            </p>
-            <p>
-              Why have we launched this movement? Because we want a world for
-              human beings and future generations—and for all the non-human
-              beings who inhabit the Earth. We must join forces around this
-              urgent need. If we don’t act, we will be left with nothing but a
-              hostile future on a planet devoured by capitalism and by a climate
-              crisis provoked by a mode of production incompatible with life.
-              The destruction of nature—the nature from which most humans have
-              tragically cut themselves off—will ignite more pandemics and is
-              already overheating the planet. We have launched this movement
-              because we don’t want to be slaughtered like cattle. Whether in
-              rural areas or in cities, we want to live like the forest—standing
-              tall—and we want to fight.
-            </p>
-            <h3>How it works</h3>
-            <p>
-              We invite you to come up with five proposals for postponing the
-              end of the world and imagining possibilities for our post-pandemic
-              future. We believe questions are as important as answers. To help
-              with this exercise of the imagination, we are offering five
-              suggestions of our own. These are meant to prompt you to devise
-              your own questions and then reply to them.
-            </p>
-            <ol>
-              <li>
-                Antidotes against the end of the world: imagine how you want to
-                live. (dare! dream, create, extrapolate reason.);
-              </li>
-              <li>
-                Democracy: propose public policies and legislative and normative
-                changes that will reduce racial, gender, and class inequalities
-                and take democracy beyond the mere act of voting every election.
-                (Dare! And be objective.);
-              </li>
-              <li>
-                Consumption: suggest ways of eliminating the consumption habits
-                that enslave our species and others as well. (Dare! And be
-                specific.);
-              </li>
-              <li>
-                Climate: suggest actions to stop the destruction of nature and
-                guarantee the continuity of all forms of life on the planet.
-                (Dare! And be a fighter.);
-              </li>
-              <li>
-                Insurrection: define the best form of civil disobedience for
-                creating the future in which you want to live! (Dare!).
-              </li>
-            </ol>
-            <p>
-              These proposals should be recorded on a one-minute video, filmed
-              horizontally. At the beginning of the video, state your name and
-              the city and country you live in. Post your video to social media
-              with the hashtag
-            </p>
-            <p>
-              We realize it can be hard to ask ourselves what we want and expose
-              our thoughts to the world. It is indeed hard to try to change the
-              world. But when you start, you’ll realize the very act of
-              imagining—alone or with your group of friends, community,
-              collective, organization, or business—is already changing you. The
-              act of imagining is a powerful force.
-            </p>
-            <p>
-              If you don’t want to start with the proposed topics, ask yourself
-              just one question:What future do you want to free? Do not give up.
-              To give up fighting for the future, at this historical moment, may
-              mean giving up on the present.
-            </p>
-            <p>
-              “The future is here and now; it might not be here next year,” says
-              Ailton Krenak.
-            </p>
-            <img
-              src={require('../assets/headers/HOME_DESTAQUE_13.jpg')}
-              alt=""
-            />
-            <h3>Who we are</h3>
-            <p>
-              We are me+1+. We are a movement to free the future. And in
-              movement we grow every day. There is no authorship, there is no
-              one capturing anything. We invite everyone to contribute with a
-              critical, dynamic reflection on the post-pandemic moment and
-              another possible world. Within this network, we are river and
-              street, imagination and reality; we are human beings and more than
-              human beings. The way the world spun before the coronavirus crisis
-              was a catastrophe foretold. We face one of our last chances to
-              change the course now pushing us quickly to the cliff, a course
-              that has already ushered in the age of pandemics.
-            </p>
-            <p>
-              We believe it is important to register our presence and our
-              imagination. This will help comprehend who we are and what we
-              want. It also drives the creation of a living document for future
-              generations and a source of research to understand this actual
-              moment, in which Earth is on the edge. We’ve created an anti-form
-              below, with questions that will allow getting to know you better,
-              and by getting to know you, we’ll be able to get to know more
-              about the world we live in. If you want to join this movement with
-              us, fill in the anti-form below as you wish - entirely or just a
-              few sections.
-            </p>
-            <p>
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSc74-rSYZuEfts-7xkj_oh5AFmdY-WUJWkTIgQicyo5w7vhGA/viewform"
-                target="_blank"
-              >
-                [Link to the form]
-              </a>
-            </p>
+As palavras de Gilberto Dimenstein tomaram forma e se concretizaram em uma série de projetos e iniciativas sociais que promovem a educação, a cultura e os direitos humanos em cidades educadoras, mais justas e acolhedoras a todos os indivíduos. Seu legado segue pulsando, inspirando e impulsionando transformações. Conheça algumas dessas palavras inspiradoras neste mural de histórias contadas algumas pessoas mobilizadas por elas. 
+
+              </p>
           </div>
         ),
       },

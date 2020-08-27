@@ -54,13 +54,7 @@ class Movimento extends Component {
           <Container>
             <Row>
               <Col lg="12">{movimento.content}</Col>
-              <Col>
-                <div className="movimentopage_nomes">
-                  {this.state.quemSomos.map((nome) => {
-                    return <p>{nome}</p>;
-                  })}
-                </div>
-              </Col>
+              
             </Row>
           </Container>
         </div>

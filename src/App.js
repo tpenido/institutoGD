@@ -20,7 +20,6 @@ data.categories.antidotos.videos = [];
 data.categories.clima.videos = [];
 data.categories.consumo.videos = [];
 data.categories.democracia.videos = [];
-data.categories.insurreicao.videos = [];
 
 class App extends Component {
   state = {
@@ -47,11 +46,6 @@ class App extends Component {
         url:
           'https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vRs1WKi9EBE0T_Wlhh9QETMz-6lxqf27-ysUTZNmQOR_pVF3Wa27rPAPxUnTjz2Pn3Ds1BJokbjDqX9/pub?gid=666431457&single=true&output=csv',
       },
-      /**{
-        category: 'insurreicao',
-        url:
-          'https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vRs1WKi9EBE0T_Wlhh9QETMz-6lxqf27-ysUTZNmQOR_pVF3Wa27rPAPxUnTjz2Pn3Ds1BJokbjDqX9/pub?gid=1877781102&single=true&output=csv',
-      },*/
     ],
   };
   componentDidMount() {

@@ -8,9 +8,6 @@ const catImages = {
   clima: {
     url: require(`../assets/logos/simbologd.svg`),
   },
-  insurreicao: {
-    url: require(`../assets/logos/simbologd.svg`),
-  },
   consumo: {
     url: require(`../assets/logos/simbologd.svg`),
   },

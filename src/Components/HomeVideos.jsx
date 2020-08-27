@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom';
 import VideoLightbox from './VideoLightbox';
 import catImages from '../data/categoryimages';
 import loading from '../assets/loading.svg';
-
 class HomeVideos extends Component {
   state = {
     categories: [],
