@@ -28,21 +28,24 @@ class Hero extends Component {
         <div className="video-container">
           <div className="herocontent">
             <Container>
-              <h1>{home[lang].titulo}</h1>
-              <p>{home[lang].subtitulo}</p>
+              <h1 style={{textJustify: 'justify'}}>{home[lang].titulo}</h1>
+              <p style={{textJustify: 'justify'}}>{home[lang].subtitulo}</p>
+              <p style={{textJustify: 'justify'}}>{home[lang].subtitulo2}</p>
+
+              <Button style={{marginRight: '1rem'}} color="danger" onClick={executeScroll}>{home[lang].participe}</Button>
+
+              <Link to={`/category/inspiracional`}>
+                <Button color="dark" className="mr-3">
+                  {home[lang].conheca}
+                </Button>
+              </Link>
               <Button
-                color="danger"
+                color="dark"
                 className="mr-3 animate__animated animate__headShake animate__delay-1s bounce animate__repeat-3"
                 onClick={this._openLightbox}
               >
                 {home[lang].video} <i className="fa fa-play"></i>
               </Button>
-              <Link to={`/movimento`}>
-                <Button color="dark" className="mr-3">
-                  {home[lang].conheca}
-                </Button>
-              </Link>
-              <Button color="dark" onClick={executeScroll}>{home[lang].participe}</Button>
             </Container>
           </div>
           <div className="overlay"></div>

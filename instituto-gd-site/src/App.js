@@ -77,12 +77,6 @@ class App extends Component {
             <Route path={`/category/:slug`}>
               <Category {...settings} />
             </Route>
-            <Route path={`/movimento`}>
-              <Movimento {...settings} />
-            </Route>
-            <Route path={`/laboratorio`}>
-              <Laboratorio {...settings} />
-            </Route>
             <Route path={`/`}>
               <Home {...settings} />
             </Route>

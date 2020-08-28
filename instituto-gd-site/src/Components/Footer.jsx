@@ -54,13 +54,6 @@ class Footer extends Component {
                       {pages.categories[lang].menuTitle}
                     </span>
                   </li>
-                  <li>
-                    <Link className="menulink" to={`/participe`}>
-                      <Button size="sm">
-                        {pages.participe[lang].menuTitle}
-                      </Button>
-                    </Link>
-                  </li>
                 </ul>
               </Col>
             </Row>
@@ -88,7 +81,11 @@ class Footer extends Component {
               </Col>
               <Col xs="auto">
                 Fale com a gente pelo email{' '}
+<<<<<<< HEAD
                 <a href="mailto:institutogilbertodimenstein@gmail.com"><strong> institutogilbertodimenstein@gmail.com</strong></a>
+=======
+                <strong> institutogilbertodimenstein@gmail.com</strong>
+>>>>>>> c338c9b9c5c58d6f1686a35967d4aa2dac90dc5c
               </Col>
               <Col xs="auto">
                 2020 <i className="fa fa-creative-commons"></i>

@@ -13,9 +13,6 @@ class PageHero extends Component {
       >
         <Container className="page_hero-content">
           <Row className="justify-content-center">
-            <Col className="align-self-center" md="4" xl="3">
-              <img src={logo} alt="" />
-            </Col>
             <Col className="align-self-center" md="8" xl="9">
               <h1>{titulo}</h1>
               {descricao ? <p className="lead">{descricao}</p> : ''}
