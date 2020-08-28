@@ -3,21 +3,21 @@ import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 import './form.css';
 const Formulario = () => {
     return (
-        <Form className='formulario'>
+        <Form className='formulario' method="post" action="upload.php" encType="multipart/form-data">
             <FormGroup>
-                <Label for="exampleNome">Nome</Label>
-                <Input type="text" name="nome" id='exampleNome' />
+                <Label for="nome">Nome</Label>
+                <Input type="text" name="nome" id='nome' />
             </FormGroup>
             <FormGroup>
-                <Label for="exampleEmail">E-mail</Label>
-                <Input type="email" name="email" id='exampleEmail' />
+                <Label for="email">E-mail</Label>
+                <Input type="email" name="email" id='email' />
             </FormGroup>
             <FormGroup>
-                <Label for="exampleVideo">Seu vídeo</Label>
-                <Input type="file" name="video" id='exampleVideo' />
+                <Label for="video">Seu vídeo</Label>
+                <Input type="file" name="video" id='video' />
             </FormGroup>
             <FormGroup>
-                <Button color="secondary">Enviar</Button>            
+                <Button color="secondary" type="submit">Enviar</Button>            
             </FormGroup>
         </Form>
     )
