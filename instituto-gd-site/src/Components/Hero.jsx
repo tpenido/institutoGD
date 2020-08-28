@@ -28,7 +28,7 @@ class Hero extends Component {
         <div className="video-container">
           <div className="herocontent">
             <Container>
-              <h1 style={{textJustify: 'justify'}}>{home[lang].titulo}</h1>
+              <h2 style={{textJustify: 'justify'}}>{home[lang].titulo}</h2>
               <p style={{textJustify: 'justify'}}>{home[lang].subtitulo}</p>
               <p style={{textJustify: 'justify'}}>{home[lang].subtitulo2}</p>
 
