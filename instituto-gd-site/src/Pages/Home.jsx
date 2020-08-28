@@ -14,6 +14,11 @@ class Home extends Component {
     const urlParams = new URLSearchParams(window.location.search);
     const showModal = urlParams.get('showModal');
     this.setState({showModal});
+
+    if(window.location.href.indexOf('participar') != -1) {
+      document.getElementById("formulario-video").scrollIntoView({behavior: "smooth"});
+    }
+
   }
 
   render() {
