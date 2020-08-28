@@ -13,7 +13,7 @@ const Formulario = () => {
                 <Input type="email" name="email" id='exampleEmail' />
             </FormGroup>
             <FormGroup>
-                <Label for="exampleEmail">Seu vídeo</Label>
+                <Label for="exampleVideo">Seu vídeo</Label>
                 <Input type="file" name="video" id='exampleVideo' />
             </FormGroup>
             <FormGroup>

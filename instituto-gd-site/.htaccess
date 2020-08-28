@@ -1,0 +1,13 @@
+# php -- BEGIN cPanel-generated handler, do not edit
+# Defina o pacote “ea-php71” como a linguagem padrão de programação “PHP”.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php71 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
+
+Options +FollowSymLinks
+
+RewriteEngine On
+RewriteCond %{HTTPS}  !=on
+
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
