@@ -6,7 +6,7 @@ $email = $_POST['email'];
 if($_FILES['video']['name'] != '') {
     $file = $_FILES['video']['name'];
 
-    $target_dir = "/home/wwinst/public_html/upload/";
+    $target_dir = getcwd().DIRECTORY_SEPARATOR . 'upload/';
 
     $path = pathinfo($file);
 
@@ -18,7 +18,7 @@ if($_FILES['video']['name'] != '') {
 
     $path_filename_ext = $target_dir.$filename.".".$ext;
 
-    move_uploaded_file($temp_name, $path_filename_ext);
+    @move_uploaded_file($temp_name, $path_filename_ext);
 
     header('Location: /');
 }
