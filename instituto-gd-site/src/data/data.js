@@ -23,31 +23,13 @@ const data = {
   pages: {
     home: {
       pt: {
-        titulo: 'Texto Inicial',
-        subtitulo:
-          'Traga suas cinco propostas, dispare perguntas, imagine respostas para o futuro pós-pandemia',
+        titulo: " “A coisa mais importante para um ser humano é a sua narrativa, o seu propósito. Sem narrativa, somos como um ator no palco sem saber o roteiro.” – Gilberto Dimenstein",
+        subtitulo: "Fiel ao seu propósito, Gilberto criou e apoiou diversas iniciativas sociais nas áreas de educação, comunicação, cultura, gentilezas urbanas e economia criativa. Seu legado segue pulsando, inspirando e impulsionando transformações.",
+        subtitulo2: "Conheça algumas histórias no mural abaixo e participe contando o que aprendeu com Dimenstein.",
         video: 'Veja o vídeo',
         conheca: 'Conheça',
         participe: 'Participe',
         videoID: '3HwhE7PTkaE',
-      },
-      en: {
-        titulo: 'This is the movement to free our future',
-        subtitulo:
-          'Bring your five proposals, ask your questions, imagine answers to the future post-pandemic',
-        video: 'Watch video',
-        conheca: 'About',
-        participe: 'Join Us',
-        videoID: 'vs4gwdQO56E',
-      },
-      es: {
-        titulo: 'Este és el movimiento para liberar el futuro',
-        subtitulo:
-          'Trae tus cinco propuestas, haz tus preguntas, imagina respuestas para el futuro pos pandemia',
-        video: 'Ver el video',
-        conheca: 'Sobre',
-        participe: 'Participar',
-        videoID: '-I6OnQfn9Ik',
       },
     },
     categories: {

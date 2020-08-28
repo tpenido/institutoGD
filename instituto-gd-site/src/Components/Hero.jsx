@@ -28,8 +28,9 @@ class Hero extends Component {
         <div className="video-container">
           <div className="herocontent">
             <Container>
-              <h1>{home[lang].titulo}</h1>
-              <p>{home[lang].subtitulo}</p>
+              <h1 style={{textJustify: 'justify'}}>{home[lang].titulo}</h1>
+              <p style={{textJustify: 'justify'}}>{home[lang].subtitulo}</p>
+              <p style={{textJustify: 'justify'}}>{home[lang].subtitulo2}</p>
               <Button
                 color="danger"
                 className="mr-3 animate__animated animate__headShake animate__delay-1s bounce animate__repeat-3"
