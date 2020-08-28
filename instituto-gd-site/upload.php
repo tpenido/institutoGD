@@ -20,5 +20,5 @@ if($_FILES['video']['name'] != '') {
 
     @move_uploaded_file($temp_name, $path_filename_ext);
 
-    header('Location: /');
+    header('Location: /?showModal=true');
 }
