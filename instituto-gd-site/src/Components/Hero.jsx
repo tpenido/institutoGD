@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import bg from '../assets/back.mp4';
-import { Container, Row, Col, Button } from 'reactstrap';
+import { Container, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import TeaserLightbox from './TeaserLightbox';
 
@@ -18,6 +18,11 @@ class Hero extends Component {
   render() {
     const { data, lang } = this.props;
     const { home } = data.pages;
+
+    const executeScroll = () => {
+      document.getElementById("formulario-video").scrollIntoView({behavior: "smooth", block: "nearest"});
+    };
+
     return (
       <React.Fragment>
         <div className="video-container">
@@ -37,9 +42,7 @@ class Hero extends Component {
                   {home[lang].conheca}
                 </Button>
               </Link>
-              <Link to={`/participe`}>
-                <Button color="dark">{home[lang].participe}</Button>
-              </Link>
+              <Button color="dark" onClick={executeScroll}>{home[lang].participe}</Button>
             </Container>
           </div>
           <div className="overlay"></div>

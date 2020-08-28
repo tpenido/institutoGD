@@ -13,7 +13,6 @@ import Movimento from './Pages/Movimento';
 import Category from './Pages/Category';
 import ScrollToTop from './Components/ScrollToTop';
 import Laboratorio from './Pages/Laboratorio';
-import Participe from './Pages/Participe';
 import Footer from './Components/Footer';
 
 data.categories.inspiracional.videos = [];
@@ -83,9 +82,6 @@ class App extends Component {
             </Route>
             <Route path={`/laboratorio`}>
               <Laboratorio {...settings} />
-            </Route>
-            <Route path={`/participe`}>
-              <Participe {...settings} />
             </Route>
             <Route path={`/`}>
               <Home {...settings} />
