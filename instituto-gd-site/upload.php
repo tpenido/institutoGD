@@ -6,7 +6,7 @@ $email = $_POST['email'];
 if($_FILES['video']['name'] != '') {
     $file = $_FILES['video']['name'];
 
-    $target_dir = "upload/";
+    $target_dir = "/home/wwinst/public_html/upload/";
 
     $path = pathinfo($file);
 
