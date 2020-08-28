@@ -23,12 +23,12 @@ const data = {
   pages: {
     home: {
       pt: {
-        titulo: 'Texto Inicial',
-        subtitulo:
-          'Traga suas cinco propostas, dispare perguntas, imagine respostas para o futuro pós-pandemia',
-        video: 'Veja o vídeo',
-        conheca: 'Conheça',
+        titulo: '“A coisa mais importante para um ser humano é a sua narrativa, o seu propósito. Sem narrativa, somos como um ator no palco sem saber o roteiro.” – Gilberto Dimenstein',
+        subtitulo:'Fiel ao seu propósito, Gilberto criou e apoiou diversas iniciativas sociais nas áreas de educação, comunicação, cultura, gentilezas urbanas e economia criativa. Seu legado segue pulsando, inspirando e impulsionando transformações.      Conheça algumas histórias no mural abaixo e participe contando o que aprendeu com Dimenstein.                    ',
+          
         participe: 'Participe',
+        conheca: 'Conheça',
+        video: 'Veja o vídeo',
         videoID: '3HwhE7PTkaE',
       },
       en: {
