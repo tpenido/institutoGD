@@ -95,7 +95,7 @@ class HomeVideos extends Component {
                     <Link to={`/category/${category.slug}`}>
                       <h2>
                         <img src={catImages[category.slug].url} alt="" />
-                        <span>0{index + 1}</span> {category[lang].titulo}
+                        {category[lang].titulo}
                         <small>VER</small>
                       </h2>
                     </Link>
