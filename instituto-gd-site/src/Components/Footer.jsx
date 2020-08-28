@@ -81,7 +81,7 @@ class Footer extends Component {
               </Col>
               <Col xs="auto">
                 Fale com a gente pelo email{' '}
-                <strong> Endereço</strong>
+                <strong> institutogilbertodimenstein@gmail.com</strong>
               </Col>
               <Col xs="auto">
                 2020 <i className="fa fa-creative-commons"></i>
