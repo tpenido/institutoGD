@@ -54,13 +54,6 @@ class Footer extends Component {
                       {pages.categories[lang].menuTitle}
                     </span>
                   </li>
-                  <li>
-                    <Link className="menulink" to={`/participe`}>
-                      <Button size="sm">
-                        {pages.participe[lang].menuTitle}
-                      </Button>
-                    </Link>
-                  </li>
                 </ul>
               </Col>
             </Row>

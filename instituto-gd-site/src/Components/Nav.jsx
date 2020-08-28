@@ -128,10 +128,6 @@ export default class Navmenu extends Component {
                   >
                     {pages.categories[lang].menuTitle}
                   </span>
-
-                  <Link className="menulink" to={`/participe`}>
-                    <Button size="sm">{pages.participe[lang].menuTitle}</Button>
-                  </Link>
                 </Col>
               </Row>
             </Container>
@@ -179,11 +175,6 @@ export default class Navmenu extends Component {
                     className="offcanvasmenu_header"
                   >
                     {pages.laboratorio[lang].menuTitle}
-                  </Link>
-                </li>
-                <li>
-                  <Link onClick={this.toggle} to={`/participe`}>
-                    <Button size="sm">{pages.participe[lang].menuTitle}</Button>
                   </Link>
                 </li>
                 <li>{languageSelector}</li>

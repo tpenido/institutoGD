@@ -28,7 +28,10 @@ class Home extends Component {
         <Modal isOpen={showModal}>
           <ModalHeader style={{color: '#000'}}>Sua contribuição foi recebida com sucesso!</ModalHeader>
           <ModalBody style={{color: '#000'}}>Obrigado por compartilhar sua história conosco.</ModalBody>
-          <ModalFooter><Button onClick={() => this.setState({ showModal: false })}>Fechar</Button></ModalFooter>
+          <ModalFooter><Button onClick={() => {
+            this.setState({ showModal: false });
+            window.location = '/';
+          }}>Fechar</Button></ModalFooter>
         </Modal>
       </React.Fragment>
     );
