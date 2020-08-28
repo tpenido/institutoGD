@@ -6,7 +6,7 @@ const data = {
     inspiracional: {
       slug: 'inspiracional',
       pt: {
-        titulo: 'Vídeos Inspiracionais',
+        titulo: 'Histórias Inspiradoras',
         subtitulo:
           '',
         descricao:
