@@ -34,7 +34,7 @@ class Hero extends Component {
 
               <Button style={{marginRight: '1rem'}} color="danger" onClick={executeScroll}>{home[lang].participe}</Button>
 
-              <Link to={`/movimento`}>
+              <Link to={`/category/inspiracional`}>
                 <Button color="dark" className="mr-3">
                   {home[lang].conheca}
                 </Button>
