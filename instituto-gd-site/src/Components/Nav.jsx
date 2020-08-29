@@ -129,7 +129,7 @@ export default class Navmenu extends Component {
                     {pages.categories[lang].menuTitle}
                   </span>
 
-                  <Button size="sm" onClick={() => {
+                  <Button className='highlight-button' size="sm" onClick={() => {
                       const isHome = window.location.href.indexOf('category') == -1;
                       if(isHome) {
                         const form = document.getElementById("formulario-video");

@@ -31,7 +31,7 @@ class Hero extends Component {
             <p style={{ textJustify: 'justify' }}>{home[lang].subtitulo}</p>
             <p style={{ textJustify: 'justify' }}>{home[lang].subtitulo2}</p>
 
-            <Button style={{ marginRight: '1rem' }} color="danger" onClick={executeScroll}>{home[lang].participe}</Button>
+            <Button className='highlight-button' style={{ marginRight: '1rem' }} onClick={executeScroll}>{home[lang].participe}</Button>
 
             <Link to={`/category/inspiracional`}>
               <Button color="dark" className="mr-3">

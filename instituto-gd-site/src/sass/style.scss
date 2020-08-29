@@ -442,3 +442,12 @@ a:visited {
     max-width: 560px;
   }
 }
+
+.highlight-button {
+  background-color: $lightGreen !important;
+  border: none !important;
+}
+
+.highlight-button:hover {
+  background-color: darken($lightGreen, 5%) !important;
+}
