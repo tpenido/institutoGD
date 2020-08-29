@@ -20,35 +20,34 @@ class Hero extends Component {
     const { home } = data.pages;
 
     const executeScroll = () => {
-      document.getElementById("formulario-video").scrollIntoView({behavior: "smooth", block: "nearest"});
+      document.getElementById("formulario-video").scrollIntoView({ behavior: "smooth", block: "nearest" });
     };
 
     return (
       <React.Fragment>
-        <div className="video-container">
-          <div className="herocontent">
-            <Container>
-              <h2 style={{textJustify: 'justify'}}>{home[lang].titulo}</h2>
-              <p style={{textJustify: 'justify'}}>{home[lang].subtitulo}</p>
-              <p style={{textJustify: 'justify'}}>{home[lang].subtitulo2}</p>
+        <div className="herocontent">
+          <Container>
+            <h2 style={{ textJustify: 'justify' }}>{home[lang].titulo}</h2>
+            <p style={{ textJustify: 'justify' }}>{home[lang].subtitulo}</p>
+            <p style={{ textJustify: 'justify' }}>{home[lang].subtitulo2}</p>
 
-              <Button style={{marginRight: '1rem'}} color="danger" onClick={executeScroll}>{home[lang].participe}</Button>
+            <Button style={{ marginRight: '1rem' }} color="danger" onClick={executeScroll}>{home[lang].participe}</Button>
 
-              <Link to={`/category/inspiracional`}>
-                <Button color="dark" className="mr-3">
-                  {home[lang].conheca}
-                </Button>
-              </Link>
-              <Button
-                color="dark"
-                className="mr-3 animate__animated animate__headShake animate__delay-1s bounce animate__repeat-3"
-                onClick={this._openLightbox}
-              >
-                {home[lang].video} <i className="fa fa-play"></i>
+            <Link to={`/category/inspiracional`}>
+              <Button color="dark" className="mr-3">
+                {home[lang].conheca}
               </Button>
-            </Container>
-          </div>
-          <div className="overlay"></div>
+            </Link>
+            <Button
+              color="dark"
+              className="mr-3 animate__animated animate__headShake animate__delay-1s bounce animate__repeat-3"
+              onClick={this._openLightbox}
+            >
+              {home[lang].video} <i className="fa fa-play"></i>
+            </Button>
+          </Container>
+        </div>
+        <div className="video-wrapper">
           <video autoPlay muted loop>
             <source src={bg} type="video/mp4" />
           </video>
@@ -59,8 +58,8 @@ class Hero extends Component {
             id={home[lang].videoID}
           />
         ) : (
-          ''
-        )}
+            ''
+          )}
       </React.Fragment>
     );
   }

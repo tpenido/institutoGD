@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button, Form, FormGroup, Label, Input, FormText, CardText } from 'reactstrap';
-import './form.css';
 
 const Formulario = () => {
     return (
