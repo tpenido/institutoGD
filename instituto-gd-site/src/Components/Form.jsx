@@ -17,15 +17,15 @@ const Formulario = () => {
                 </p>
                 <FormGroup>
                     <Label id='labelNome' for="nome">Nome</Label>
-                    <Input type="text" name="nome" id='nome' />
+                    <Input type="text" name="nome" id='nome' required/>
                 </FormGroup>
                 <FormGroup>
                     <Label id='labelEmail' for="email">E-mail</Label>
-                    <Input type="email" name="email" id='email' />
+                    <Input type="email" name="email" id='email' required/>
                 </FormGroup>
                 <FormGroup>
                     <Label for="video">Seu vídeo</Label>
-                    <Input type="file" name="video" id='video' />
+                    <Input type="file" name="video" id='video' required/>
                 </FormGroup>
                 <FormGroup>
                     <Button color="secondary" type="submit">Enviar</Button>
